@@ -56,16 +56,20 @@ If you use code from this repository in academic work, please cite the relevant 
 
 If you use **NCVMD**, please cite:
 
-> **TODO:** NCVMD reference to be added (author will provide BibTeX / DOI).
+> Fazzini, P., La Tona, G., Diez, M., Montuori, M. & Di Piazza, M. C. Multi-Channel Neighborhood-Constrained Variational Mode Decomposition. *Information* **17**(10), 970 (2026). https://doi.org/10.3390/info17100970
 
 ```bibtex
-% TODO: NCVMD — replace with the official BibTeX entry when available.
-@article{ncvmd_todo,
-  author  = {},
-  title   = {},
-  journal = {},
-  year    = {},
-  doi     = {}
+@Article{info17100970,
+  AUTHOR   = {Fazzini, Paolo and La Tona, Giuseppe and Diez, Matteo and Montuori, Marco and Di Piazza, Maria Carmela},
+  TITLE    = {Multi-Channel Neighborhood-Constrained Variational Mode Decomposition},
+  JOURNAL  = {Information},
+  VOLUME   = {17},
+  YEAR     = {2026},
+  NUMBER   = {10},
+  ARTICLE-NUMBER = {970},
+  URL      = {https://www.mdpi.com/2078-2489/17/10/970},
+  ISSN     = {2078-2489},
+  DOI      = {10.3390/info17100970}
 }
 ```
 

@@ -6,9 +6,9 @@ No electric-load datasets or external data files are required.
 
 ## Author and license
 
-This repository is maintained by **Paolo Fazzini**. Unless noted otherwise in individual files, code is released under the **[MIT License](LICENSE)** (permissive use, modification, and redistribution with attribution and license notice).
+**Copyright © Paolo Fazzini.** All code in this repository is authored by **Paolo Fazzini**, released under the **[MIT License](LICENSE)** (permissive use, modification, and redistribution with attribution and license notice).
 
-The VMD implementations in `VMD_pers.py` and `VMD_extended.py` build on the Python VMD code by Vinícius Rezende Carvalho (see file headers and cite Dragomiretskiy & Zosso, 2014, when using standard VMD). NCVMD, VMDMS-related code, MVMD integration, and this supplement layout are part of this repository’s contributions.
+The VMD core in `VMD_pers.py` and `VMD_extended.py` extends the Python implementation by Vinícius Rezende Carvalho (see file headers; cite Dragomiretskiy & Zosso, 2014, for standard VMD). **NCVMD**, **VMDMS**-related modules, **MVMD** integration, tests, and this repository layout are original contributions by Paolo Fazzini.
 
 ## NCVMD at a glance
 

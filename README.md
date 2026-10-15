@@ -92,7 +92,39 @@ If you use **VMDMS**, please cite:
 }
 ```
 
-Standard **VMD** and **MVMD** implementations here follow the literature cited in the module docstrings (Dragomiretskiy & Zosso, 2014, and the respective multivariate references). Cite those original papers when you rely on the base algorithms.
+### VMD and MVMD (base algorithms)
+
+If you use the included **VMD** or **MVMD** implementations, please also cite the original methods:
+
+> Dragomiretskiy, K. & Zosso, D. Variational Mode Decomposition. *IEEE Transactions on Signal Processing* **62**(3), 531–544 (2014). https://doi.org/10.1109/TSP.2013.2288675
+
+```bibtex
+@article{dragomiretskiy2014vmd,
+  author  = {Dragomiretskiy, Konstantin and Zosso, Dominique},
+  title   = {Variational Mode Decomposition},
+  journal = {IEEE Transactions on Signal Processing},
+  volume  = {62},
+  number  = {3},
+  pages   = {531--544},
+  year    = {2014},
+  doi     = {10.1109/TSP.2013.2288675}
+}
+```
+
+> Rehman, N. u. & Aftab, H. Multivariate Variational Mode Decomposition. *IEEE Transactions on Signal Processing* **67**(23), 6039–6052 (2019). https://doi.org/10.1109/TSP.2019.2951223
+
+```bibtex
+@article{rehman2019mvmd,
+  author  = {{Rehman}, Naveed ur and Aftab, Hania},
+  title   = {Multivariate Variational Mode Decomposition},
+  journal = {IEEE Transactions on Signal Processing},
+  volume  = {67},
+  number  = {23},
+  pages   = {6039--6052},
+  year    = {2019},
+  doi     = {10.1109/TSP.2019.2951223}
+}
+```
 
 ## Related work
 

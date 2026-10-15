@@ -98,5 +98,3 @@ Standard **VMD** and **MVMD** implementations here follow the literature cited i
 
 - **VMDMS** (earlier public toy / forecasting example): [github.com/pfaz69/VMDMS](https://github.com/pfaz69/VMDMS)
 - **VMDMS paper:** [Scientific Reports (2025)](https://doi.org/10.1038/s41598-025-06153-z) — Fazzini, La Tona, Diez, Di Piazza et al.
-
-The full multivariate forecasting pipeline and experiments (datasets, partitioning, LaTeX outputs) are maintained in the authors’ private research codebase; contact **Paolo Fazzini** if you need access.

@@ -8,7 +8,7 @@ No electric-load datasets or external data files are required.
 
 **Copyright © Paolo Fazzini.** All code in this repository is authored by **Paolo Fazzini**, released under the **[MIT License](LICENSE)** (permissive use, modification, and redistribution with attribution and license notice).
 
-The VMD core in `VMD_pers.py` and `VMD_extended.py` extends the Python implementation by Vinícius Rezende Carvalho (see file headers; cite Dragomiretskiy & Zosso, 2014, for standard VMD). **NCVMD**, **VMDMS**-related modules, **MVMD** integration, tests, and this repository layout are original contributions by Paolo Fazzini.
+The VMD core in `VMD_pers.py` and `VMD_extended.py` extends the Python implementation by Vinícius Rezende Carvalho (see file headers; cite Dragomiretskiy & Zosso, 2014, and Rehman & Aftab, 2019, for MVMD). **NCVMD**, **VMDMS**-related modules, **MVMD** integration, tests, and this repository layout are original contributions by Paolo Fazzini.
 
 ## NCVMD at a glance
 
@@ -92,39 +92,7 @@ If you use **VMDMS**, please cite:
 }
 ```
 
-### VMD and MVMD (base algorithms)
-
-If you use the included **VMD** or **MVMD** implementations, please also cite the original methods:
-
-> Dragomiretskiy, K. & Zosso, D. Variational Mode Decomposition. *IEEE Transactions on Signal Processing* **62**(3), 531–544 (2014). https://doi.org/10.1109/TSP.2013.2288675
-
-```bibtex
-@article{dragomiretskiy2014vmd,
-  author  = {Dragomiretskiy, Konstantin and Zosso, Dominique},
-  title   = {Variational Mode Decomposition},
-  journal = {IEEE Transactions on Signal Processing},
-  volume  = {62},
-  number  = {3},
-  pages   = {531--544},
-  year    = {2014},
-  doi     = {10.1109/TSP.2013.2288675}
-}
-```
-
-> Rehman, N. u. & Aftab, H. Multivariate Variational Mode Decomposition. *IEEE Transactions on Signal Processing* **67**(23), 6039–6052 (2019). https://doi.org/10.1109/TSP.2019.2951223
-
-```bibtex
-@article{rehman2019mvmd,
-  author  = {{Rehman}, Naveed ur and Aftab, Hania},
-  title   = {Multivariate Variational Mode Decomposition},
-  journal = {IEEE Transactions on Signal Processing},
-  volume  = {67},
-  number  = {23},
-  pages   = {6039--6052},
-  year    = {2019},
-  doi     = {10.1109/TSP.2019.2951223}
-}
-```
+Standard **VMD** and **MVMD** implementations here follow the literature cited in the module docstrings (Dragomiretskiy & Zosso, 2014, for VMD; Rehman & Aftab, 2019, for MVMD). Cite those original papers when you rely on the base algorithms.
 
 ## Related work
 
